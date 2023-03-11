@@ -1,0 +1,4 @@
+git remote add origin git@github.com:BKshiva/terraform-files.git
+git branch -M main
+git push -u origin main
+
