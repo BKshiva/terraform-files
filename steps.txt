@@ -1,0 +1,20 @@
+1. Install a Agent VM in VS-User27
+
+2. Make this VM as agent-pool
+
+3. Go to azure devops - create a agent pool and service connections 
+
+
+4. go to pipelines ----> create a new pieline ------> add tasks copy terraform files to artifacts ---------> publish artifacts tasks  and run the build pipeline 
+
+
+5. Now go to release pipeline and (if required install terraform extension ) 
+
+6. click n the build artifacts and add the artifacts 
+
+
+7. click on the tasks and add the tasks
+
+
+      --- terraform tool installer
+      --- terraform
